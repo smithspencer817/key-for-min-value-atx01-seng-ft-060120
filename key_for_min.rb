@@ -13,8 +13,8 @@ def key_for_min_value(name_hash)
         min_value_key = key
       end
     end
-    return min_value_key
     binding.pry
+    return min_value_key
   end
   nil
 end
