@@ -4,7 +4,7 @@
 require "pry"
 
 def key_for_min_value(name_hash)
-  min_value = name_hash[0]
+  min_value = name_hash
   binding.pry
   min_value_key = ""
   if name_hash != {}
